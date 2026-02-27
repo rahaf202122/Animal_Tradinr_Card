@@ -1,0 +1,41 @@
+
+img{
+  /* select the width of picture 300 px */
+  width: 300px;
+  /* add spaces abut the picture ( i supposed 15 px) */
+  margin: 15px ;
+}
+/*reorder the pody of page to be the middle of it  */
+body{
+  /*  */
+    display: flex; 
+    flex-wrap: wrap;   
+    justify-content: center;  
+    align-items: center;    
+}
+.card{
+   /* add an outer frame of light grey ( i select this rgb(211, 203, 203)) */
+   border : 1px solid rgb(211, 203, 203);
+   /* 300 px of pictue + 2*15 px of margin */
+   width: 330px;
+   padding: 10px;
+   /* inner spaces */
+  box-shadow: 5px 5px 5px rgba(211, 203, 203, 0.7);
+  display: flex;
+  flex-wrap: wrap;
+}
+/* title */
+h1{
+  margin: 15px;
+}
+ul{
+  /* to remove points from unorder list */
+  list-style-type:none;
+  padding-left: 0;
+}
+.box{
+  /*  add a frame about the information */
+  border : 1px solid  rgb(211, 203, 203);
+  padding: 15px;
+  margin: 15px;
+}
